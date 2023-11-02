@@ -51,6 +51,102 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
   font-size: pxToRem(24);
 }
 
+.padding-block-sm {
+  padding-block: 0.25rem;
+}
+
+.padding-inline-sm {
+  padding-inline: 0.25rem;
+}
+
+.padding-block-normal {
+  padding-block: 0.5rem;
+}
+
+.padding-inline-normal {
+  padding-inline: 0.5rem;
+}
+
+.padding-block-md {
+  padding-block: 0.75rem;
+}
+
+.padding-inline-md {
+  padding-inline: 0.75rem;
+}
+
+.padding-block-lg {
+  padding-block: 1rem;
+}
+
+.padding-inline-lg {
+  padding-inline: 1rem;
+}
+
+.padding-block-xl {
+  padding-block: 1.5rem;
+}
+
+.padding-inline-xl {
+  padding-inline: 1.5rem;
+}
+
+.padding-block-xxl {
+  padding-block: 2rem;
+}
+
+.padding-inline-xxl {
+  padding-inline: 2rem;
+}
+
+.margin-block-sm {
+  margin-block: 0.25rem;
+}
+
+.margin-inline-sm {
+  margin-inline: 0.25rem;
+}
+
+.margin-block-normal {
+  margin-block: 0.5rem;
+}
+
+.margin-inline-normal {
+  margin-inline: 0.5rem;
+}
+
+.margin-block-md {
+  margin-block: 0.75rem;
+}
+
+.margin-inline-md {
+  margin-inline: 0.75rem;
+}
+
+.margin-block-lg {
+  margin-block: 1rem;
+}
+
+.margin-inline-lg {
+  margin-inline: 1rem;
+}
+
+.margin-block-xl {
+  margin-block: 1.5rem;
+}
+
+.margin-inline-xl {
+  margin-inline: 1.5rem;
+}
+
+.margin-block-xxl {
+  margin-block: 2rem;
+}
+
+.margin-inline-xxl {
+  margin-inline: 2rem;
+}
+
 nav {
   height: 5rem;
   background-color: rgb(0, 0, 45);

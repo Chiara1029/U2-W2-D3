@@ -1,0 +1,27 @@
+$sizes: (
+ "sm": 0.25rem,
+ "normal": 0.5rem,
+ "md": 0.75rem,
+ "lg": 1rem,
+ "xl": 1.5rem,
+ "xxl": 2rem
+);
+
+@each $size, $value in $sizes {
+ .padding-block-#{$size} {
+    padding-block: $value;
+ }
+ .padding-inline-#{$size} {
+    padding-inline: $value;
+ }
+}
+
+
+@each $size, $value in $sizes {
+ .margin-block-#{$size} {
+    margin-block: $value;
+ }
+ .margin-inline-#{$size} {
+    margin-inline: $value;
+ }
+}
