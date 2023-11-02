@@ -8,14 +8,6 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
-  color: #f4f4f4;
-}
-
-.bg-hero {
-  background-color: #640fc5;
-}
-
 .main-title {
   font-family: "Verdana", sans-serif;
   font-weight: 300;
@@ -51,7 +43,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
   padding-block: 0.5rem;
 }
 
-.padding-inline-normal {
+.padding-inline-normal, nav ul li {
   padding-inline: 0.5rem;
 }
 
@@ -67,7 +59,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
   padding-block: 1rem;
 }
 
-.padding-inline-lg {
+.padding-inline-lg, nav {
   padding-inline: 1rem;
 }
 
@@ -155,4 +147,33 @@ nav img {
   height: 4rem;
   border-radius: 50%;
   padding: 0.5rem;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  font-family: "Verdana", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #640fc5;
+  color: #f4f4f4;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+header h1, header p {
+  font-family: Verdana, sans-serif;
 }

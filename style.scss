@@ -9,9 +9,40 @@
 nav{
     height: 5rem;
     background-color: rgb(0, 0, 45);
+    @extend .padding-inline-lg;
     img{
         height: 4rem;
         border-radius: 50%;
         padding: 0.5rem;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        @extend .padding-inline-normal;
+        list-style-type: none;
+        font-family: "Verdana", sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+header{
+    background-color: $bg-hero-color;
+    color: $text-color;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    h1, p{
+        font-family: Verdana, sans-serif;
     }
 }

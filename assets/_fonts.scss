@@ -7,13 +7,13 @@
     letter-spacing: -1.5px;
   }
 
-  @mixin font-size() {
-    $font-size-list: 14 16 20 24;
+@mixin font-size() {
+  $font-size-list: 14 16 20 24;
 
-    @each $value in $font-size-list {
-      .font-size-#{$value} {
-        font-size: pxToRem($value);
-      }
+  @each $value in $font-size-list {
+    .font-size-#{$value} {
+      font-size: pxToRem($value);
     }
   }
-  @include font-size()
+}
+@include font-size()
